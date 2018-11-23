@@ -165,7 +165,7 @@ def arbitrary_stylization_with_weights(stconfig):
           })
       image_utils.save_np_image(inp_img_croped_resized_np,
                                 os.path.join(stconfig.output_dir,
-                                             '%s.jpg' % (content_img_name)))
+                                             'content_%s.jpg' % (content_img_name)))
 
       # Computes bottleneck features of the style prediction network for the
       # identity transform.
@@ -191,7 +191,7 @@ def arbitrary_stylization_with_weights(stconfig):
             })
         image_utils.save_np_image(style_img_croped_resized_np,
                                   os.path.join(stconfig.output_dir,
-                                               '%s.jpg' % (style_img_name)))
+                                               'style_%s.jpg' % (style_img_name)))
 
         # Computes bottleneck features of the style prediction network for the
         # given style image.
@@ -214,5 +214,5 @@ def arbitrary_stylization_with_weights(stconfig):
           # Saves stylized image.
           image_utils.save_np_image(
               stylized_image_res,
-              os.path.join(stconfig.output_dir, '%s_stylized_%s_%d.jpg' %
+              os.path.join(stconfig.output_dir, 'zzResult_%s_stylized_%s_%d.jpg' %
                            (content_img_name, style_img_name, interp_i)))    

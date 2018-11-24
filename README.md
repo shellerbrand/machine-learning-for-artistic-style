@@ -1,5 +1,7 @@
 # Neue Werke alter Meister - Transfer von Bildstilen mit Neuronalen Netzen
 
+[English further below](#english-usage)
+
 In diesem Repository findet sich ein Beispiel dafür, wie neuronale Netze einen Malereistil lernen und 
 einem anderen Bild, z.B. einem Foto, aufprägen können. 
 
@@ -20,3 +22,11 @@ https://colab.research.google.com/github/shellerbrand/machine-learning-for-artis
 Wenn man eigene Bilder für den Bild-Transfer hochladen will, dann muss man ein Konto auf der [Bilder Upload-Seite](https://imageupload.hellerbit.com/images) anlegen. 
 
 __Bitte beachten__: Alle Konten und die dazugehörigen Daten werden täglich um Mitternacht deutscher Zeit gelöscht. Der Code für die Upload-Seite wird zu einem späteren Zeitpunkt ebenfalls hier veröffentlicht für diejenigen, die die Upload-Seite auf Ihrem eigenen Server betreiben wollen.
+
+## English: Usage
+
+The example was originally created for a course given in German. We believe that this example may be interesting for an English-speaking audience as well. That's why we have added an English version of the notebook, too.
+
+To start the English version of the notebook in Google Colaboratory go to:
+
+https://colab.research.google.com/github/shellerbrand/machine-learning-for-artistic-style/blob/master/machine_learning_artistic_style_transfer_en.ipynb

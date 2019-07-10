@@ -1,0 +1,16 @@
+# Model Folder
+/arbitrary_style_transfer
+
+# Helpers
+*.tar.gz
+
+# Output Folder
+output.zip
+/output
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# IPython notebook
+.ipynb_checkpoints
